@@ -7,10 +7,10 @@ conda activate aligndiff
 ```
 
 ### Data
-The dataset follows [TargetDiff](https://arxiv.org/abs/2303.03543). For more details, please refer to [the repository of TargetDiff](https://github.com/guanjq/targetdiff?tab=readme-ov-file#data).
+The dataset download follows [TargetDiff](https://arxiv.org/abs/2303.03543). For more details, please refer to [the repository of TargetDiff](https://github.com/guanjq/targetdiff?tab=readme-ov-file#data).
 
 ### Pretrained Model
-The pretrained model follows [IPDiff](https://openreview.net/forum?id=qH9nrMNTIW). To download the model checkpoint, please refer to [the repository of IPDiff](https://github.com/YangLing0818/IPDiff/tree/main?tab=readme-ov-file#%EF%B8%8F%EF%B8%8Fpretrained-ipdiff).
+The pretrained model download follows [IPDiff](https://openreview.net/forum?id=qH9nrMNTIW). To download the model checkpoint, please refer to [the repository of IPDiff](https://github.com/YangLing0818/IPDiff/tree/main?tab=readme-ov-file#%EF%B8%8F%EF%B8%8Fpretrained-ipdiff).
 ```shell
 ./pretrained_models
 ```
