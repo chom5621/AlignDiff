@@ -38,7 +38,7 @@ python sample_split.py --start_index 0 --end_index 99 --batch_size 25
 ```
 
 ### Evaluation
-Evaluate 100 samples and calculate metrics.
+Evaluate 10000 samples and calculate metrics.
 ```bash
 python eval_split.py --eval_start_index 0 --eval_end_index 99
 python cal_metrics_from_pt.py
