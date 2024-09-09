@@ -1,0 +1,31 @@
+[2024-04-30 16:51:00,908::evaluate::INFO] Load generated data done! sample_id[0:99] examples for evaluation.
+[2024-04-30 21:08:21,497::evaluate::INFO] Evaluate done! 10000 samples in total.
+[2024-04-30 21:08:21,498::evaluate::INFO] mol_stable:	0.1552
+[2024-04-30 21:08:21,498::evaluate::INFO] atm_stable:	0.8717
+[2024-04-30 21:08:21,498::evaluate::INFO] recon_success:	0.9701
+[2024-04-30 21:08:21,498::evaluate::INFO] eval_success:	0.8792
+[2024-04-30 21:08:21,498::evaluate::INFO] complete:	0.8799
+[2024-04-30 21:08:21,707::evaluate::INFO] JS bond distances of complete mols: 
+[2024-04-30 21:08:21,708::evaluate::INFO] JSD_6-6|4:	0.2872
+[2024-04-30 21:08:21,708::evaluate::INFO] JSD_6-6|1:	0.4411
+[2024-04-30 21:08:21,708::evaluate::INFO] JSD_6-8|1:	0.3858
+[2024-04-30 21:08:21,708::evaluate::INFO] JSD_6-7|1:	0.3616
+[2024-04-30 21:08:21,708::evaluate::INFO] JSD_6-8|2:	0.3884
+[2024-04-30 21:08:21,708::evaluate::INFO] JSD_6-6|2:	0.2939
+[2024-04-30 21:08:21,708::evaluate::INFO] JSD_6-7|4:	0.3930
+[2024-04-30 21:08:21,708::evaluate::INFO] JSD_6-7|2:	0.3936
+[2024-04-30 21:08:23,734::evaluate::INFO] JSD_CC_2A:	0.3348
+[2024-04-30 21:08:23,734::evaluate::INFO] JSD_All_12A:	0.0817
+[2024-04-30 21:08:23,735::evaluate::INFO] Atom type JS: 0.1278
+[2024-04-30 21:08:24,950::evaluate::INFO] Number of reconstructed mols: 9701, complete mols: 8799, evaluated mols: 8792
+[2024-04-30 21:08:24,969::evaluate::INFO] QED:   Mean: 0.493 Median: 0.506
+[2024-04-30 21:08:24,972::evaluate::INFO] SA:    Mean: 0.565 Median: 0.560
+[2024-04-30 21:08:24,992::evaluate::INFO] Vina Score:  Mean: -5.864 Median: -6.518
+[2024-04-30 21:08:24,994::evaluate::INFO] Vina Min  :  Mean: -6.973 Median: -7.020
+[2024-04-30 21:08:25,001::evaluate::INFO] ring size: 3 ratio: 0.000
+[2024-04-30 21:08:25,002::evaluate::INFO] ring size: 4 ratio: 0.051
+[2024-04-30 21:08:25,003::evaluate::INFO] ring size: 5 ratio: 0.320
+[2024-04-30 21:08:25,004::evaluate::INFO] ring size: 6 ratio: 0.755
+[2024-04-30 21:08:25,005::evaluate::INFO] ring size: 7 ratio: 0.436
+[2024-04-30 21:08:25,006::evaluate::INFO] ring size: 8 ratio: 0.133
+[2024-04-30 21:08:25,007::evaluate::INFO] ring size: 9 ratio: 0.078
