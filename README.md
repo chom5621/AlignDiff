@@ -18,14 +18,14 @@ conda activate aligndiff
 
 
 ### 데이터 다운로드
-- 데이터는 [TargetDiff](https://arxiv.org/abs/2303.03543) 논문의 Crossdocked2020 데이터셋을 사용했습니다. 다운로드는 [TargetDiff_저장소](https://github.com/guanjq/targetdiff?tab=readme-ov-file#data)에서 받을 수 있습니다.
+- 데이터는 [TargetDiff](https://arxiv.org/abs/2303.03543) 논문의 Crossdocked2020 데이터셋을 사용했습니다. 다운로드는 [TargetDiff 깃헙](https://github.com/guanjq/targetdiff?tab=readme-ov-file#data)에서 받을 수 있습니다.
 ```bash
 ./datasets/crossdocked_v1.1_rmsd1.0
 ```
 
 
 ### 사전학습 모델 다운로드
-- 베이스라인 모델은 [IPDiff](https://openreview.net/forum?id=qH9nrMNTIW) 논문을 사용했습니다. 논문에서 사용한 ipnet 다운로드는 [IPDiff_저장소](https://github.com/YangLing0818/IPDiff/tree/main?tab=readme-ov-file#%EF%B8%8F%EF%B8%8Fpretrained-ipdiff)에서 받을 수 있습니다.
+- 베이스라인 모델은 [IPDiff](https://openreview.net/forum?id=qH9nrMNTIW)를 사용했습니다. 논문에서 사용한 ipnet 다운로드는 [IPDiff 깃헙](https://github.com/YangLing0818/IPDiff/tree/main?tab=readme-ov-file#%EF%B8%8F%EF%B8%8Fpretrained-ipdiff)에서 받을 수 있습니다.
 ```bash
 ./pretrained_models/ipnet
 ```
