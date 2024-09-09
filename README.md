@@ -34,7 +34,7 @@ conda activate aligndiff
 ### 학습
 - Contribution: 연속형 변수인 position을 학습하는 mse_loss_pos과 align되도록, 이산형 변수인 atom type과 aromatic을 학습할 때 crossentropy_loss_v 대신 새로운 mse_loss_v를 제안합니다.
 - Result: Validation step에서 atom type과 aromatic에 대한 예측률 향상이 있습니다. (AUROC 98.6% 달성)
-- 아래 코드 실행 결과, 약 200번 iteration 학습 후 loss가 converge하여 저장한 모델 체크포인트는 ./pretrained_models/pretrained_aligndiff.pt입니다.
+- 아래 코드 실행 결과, 약 200번 iteration 학습 후 loss가 converge하여 저장한 모델 체크포인트는 `./pretrained_models/pretrained_aligndiff.pt`입니다.
 ```bash
 python train_align.py
 ```
