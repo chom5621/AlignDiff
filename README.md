@@ -25,7 +25,7 @@ conda activate aligndiff
 
 
 ### 사전학습 모델 다운로드
-- 사전학습 모델은 [IPDiff](https://openreview.net/forum?id=qH9nrMNTIW) 논문의 체크포인트를 사용했습니다. 다운로드는 다음 깃헙에서 받을 수 있습니다: [IPDiff repository](https://github.com/YangLing0818/IPDiff/tree/main?tab=readme-ov-file#%EF%B8%8F%EF%B8%8Fpretrained-ipdiff).
+- 베이스라인 모델은 [IPDiff](https://openreview.net/forum?id=qH9nrMNTIW) 논문의 체크포인트를 사용했습니다. 다운로드는 다음 깃헙에서 받을 수 있습니다: [IPDiff repository](https://github.com/YangLing0818/IPDiff/tree/main?tab=readme-ov-file#%EF%B8%8F%EF%B8%8Fpretrained-ipdiff).
 ```bash
 ./pretrained_models/ipnet
 ```
