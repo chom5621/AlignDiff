@@ -18,14 +18,14 @@ conda activate aligndiff
 
 
 ### 데이터 다운로드
-데이터는 [TargetDiff](https://arxiv.org/abs/2303.03543) 논문의 데이터셋을 사용했습니다. 다운로드는 다음 깃헙에서 받을 수 있습니다: [TargetDiff repository](https://github.com/guanjq/targetdiff?tab=readme-ov-file#data).
+- 데이터는 [TargetDiff](https://arxiv.org/abs/2303.03543) 논문의 데이터셋을 사용했습니다. 다운로드는 다음 깃헙에서 받을 수 있습니다: [TargetDiff repository](https://github.com/guanjq/targetdiff?tab=readme-ov-file#data).
 ```bash
 ./datasets/crossdocked_v1.1_rmsd1.0
 ```
 
 
 ### 사전학습 모델 다운로드
-사전학습 모델은 [IPDiff](https://openreview.net/forum?id=qH9nrMNTIW) 논문의 체크포인트를 사용했습니다. 다운로드는 다음 깃헙에서 받을 수 있습니다: [IPDiff repository](https://github.com/YangLing0818/IPDiff/tree/main?tab=readme-ov-file#%EF%B8%8F%EF%B8%8Fpretrained-ipdiff).
+- 사전학습 모델은 [IPDiff](https://openreview.net/forum?id=qH9nrMNTIW) 논문의 체크포인트를 사용했습니다. 다운로드는 다음 깃헙에서 받을 수 있습니다: [IPDiff repository](https://github.com/YangLing0818/IPDiff/tree/main?tab=readme-ov-file#%EF%B8%8F%EF%B8%8Fpretrained-ipdiff).
 ```bash
 ./pretrained_models/ipnet
 ```
@@ -40,14 +40,14 @@ python train_align.py
 
 
 ### 샘플링
-테스트셋의 프로틴 100개에 대해, 각 프로틴 당 100개의 분자 샘플들을 생성합니다.
+- 테스트셋의 프로틴 100개에 대해, 각 프로틴 당 100개의 분자 샘플들을 생성합니다.
 ```bash
 python sample_split.py --start_index 0 --end_index 99 --batch_size 25
 ```
 
 
 ### 평가
-샘플링한 10,000개의 샘플들을 evaluate하고 metric들을 계산합니다.
+- 샘플링한 10,000개의 샘플들을 evaluate하고 metric들을 계산합니다.
 ```bash
 python eval_split.py --eval_start_index 0 --eval_end_index 99
 ```
