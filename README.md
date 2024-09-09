@@ -2,7 +2,7 @@
 
 ### 가상환경 설치
 ```bash
-conda env create -f aligndiff.yaml
+conda env create -f aligndiff.yml
 conda activate aligndiff
 ```
 
@@ -18,7 +18,7 @@ conda activate aligndiff
 
 
 ### 데이터 다운로드
-- 데이터는 [TargetDiff](https://arxiv.org/abs/2303.03543) 논문의 데이터셋을 사용했습니다. 다운로드는 다음 깃헙에서 받을 수 있습니다: [TargetDiff repository](https://github.com/guanjq/targetdiff?tab=readme-ov-file#data).
+- 데이터는 [TargetDiff](https://arxiv.org/abs/2303.03543) 논문의 Crossdocked2020 데이터셋을 사용했습니다. 다운로드는 다음 깃헙에서 받을 수 있습니다: [TargetDiff repository](https://github.com/guanjq/targetdiff?tab=readme-ov-file#data).
 ```bash
 ./datasets/crossdocked_v1.1_rmsd1.0
 ```
